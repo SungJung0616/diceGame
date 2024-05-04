@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster&display=swap');
+
+
+.modal {
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px; /* 기본 크기의 3배 */
+  height: 300px; /* 기본 크기의 2배 */
+  border-radius: 15px;
+  background: white;
+ 
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  border: 1px solid #ccc; /* 경계선 스타일 */ 
+
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* 폼의 높이를 모달 높이에 맞춤 */
+  justify-content: space-around; /* 내부 요소 간격 조정 */
+  align-items: center;
+  font-family: 'Lobster', cursive; 
+  font-size: medium;
+}
+
+input {
+  border: none; /* 모든 테두리 제거 */
+  border-bottom: 2px solid #4ECCA3; /* 아래쪽 테두리만 추가 */
+  padding: 10px; /* 패딩 추가 */
+  font-size: 1rem; /* 글꼴 크기 조정 */
+  outline: none; /* 포커스 아웃라인 제거 */
+}
+
+input:focus {
+  border-bottom: 3px solid #393E46; /* 포커스 시 아래쪽 테두리 강조 */
+}
+
+.player-label {
+  font-size: 24px;  
+  color: #232931;  
+  margin-bottom: 10px; 
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  display : flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;  
+  
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.btn-box{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 150px;  /* 너비 조정 */
+  height: 50px;
+  border-radius: 15px;
+  background-color: #4ECCA3; /* 버튼 배경색 */
+  color: #232931; /* 버튼 글자색 */
+  font-family: 'Lobster', cursive; /* 폰트 스타일 */
+  font-size: 1.25rem; /* 글자 크기 */
+  
+  border: none; /* 테두리 제거 */
+  cursor: pointer; /* 클릭 가능한 요소임을 나타내는 커서 스타일 */
+  transition: all 0.3s ease; /* 부드러운 전환 효과 */
+  box-shadow: 5px 5px #232931; /* 박스 그림자 */
+}
+
+button:hover {
+  background-color: rgba(78, 204, 163, 0.5); /* 호버 시 배경색 변경 */
+  color: #232931; /* 호버 시 텍스트 색상 변경 */
+  box-shadow: 2px 2px #232931; /* 호버 시 그림자 변경 */
+}
