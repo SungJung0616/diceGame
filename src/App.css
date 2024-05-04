@@ -109,3 +109,51 @@ button:hover {
   color: #232931; /* 호버 시 텍스트 색상 변경 */
   box-shadow: 2px 2px #232931; /* 호버 시 그림자 변경 */
 }
+
+@media (max-width: 768px) {
+  .container, .btn-box {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .dice {
+    justify-content: space-around;  /* 주사위 사이의 공간을 균등하게 배분 */
+      /* 작은 화면에서는 주사위가 세로로 나열되도록 설정 */
+    align-items: center;  /* 주사위를 중앙 정렬 */
+  }
+
+  .modal, .btn-box button, input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .btn-box {
+    display: flex;  /* Flexbox 레이아웃 적용 */
+    justify-content: center;  /* 버튼을 가로축 중앙에 배치 */
+    width: 100%;  /* 컨테이너의 너비를 전체로 설정 */
+  }
+
+  .modal {
+    height: auto; /* 높이 자동 조절 */
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .player-label, p, button {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 100%;  /* 입력 필드 너비를 화면에 맞춤 */
+    padding: 10px 10px 10px 30px; /* 상, 우, 하, 좌 패딩 설정 */
+    text-align: left; /* 텍스트 입력을 왼쪽에서 시작하도록 설정 */
+    margin: 0 auto; /* 자동 마진으로 중앙 정렬 */
+  }
+}
