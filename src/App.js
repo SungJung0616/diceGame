@@ -68,9 +68,9 @@ const getRoll =()=>{
     if(player1 === player2){
       return "Tie";
     }else if(player1 > player2){
-      return "🚩 Player1 win";
+      return `🚩${player1Name} Wins!`;
     }else{
-      return "Player2 Wins! 🚩";
+      return `${player2Name} Wins! 🚩`;
     }
   } 
 

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster&display=swap');
 
-
+.body{
+  display: flex;
+  justify-content: center;
+}
 .modal {
   position: fixed;
   top: 51%;
@@ -46,6 +49,9 @@ input:focus {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -110,8 +116,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .container{
+    height: 90%;
+  }
   .container, .btn-box {
-    width: 90%;
+    width: 90%;    
   }
 
   h1 {
@@ -128,6 +137,10 @@ button:hover {
     margin-bottom: 20px;
     width: 80%;
     padding: 10px;
+  }
+
+  .modal button{
+    margin-top: 1rem;
   }
 
   input {
