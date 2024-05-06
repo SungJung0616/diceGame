@@ -8,7 +8,7 @@ const diceImages = [
 ];
 
 function App() {
-  const [headText, setHeadText] = useState("Welcom to Dice Game!!");
+  const [headText, setHeadText] = useState("Welcome to Dice Game!!");
   const [showModal, setShowModal] = useState(true);
   const [player1Name, setPlayer1Name] = useState('player1');
   const [player2Name, setPlayer2Name] = useState('player2');
