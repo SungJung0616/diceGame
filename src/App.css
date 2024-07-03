@@ -9,37 +9,37 @@
   top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 600px; /* 기본 크기의 3배 */
-  height: 300px; /* 기본 크기의 2배 */
+  width: 600px; 
+  height: 300px; 
   border-radius: 15px;
   background: white; 
   padding: 20px;
   z-index: 1000;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
-  border: 1px solid #ccc; /* 경계선 스타일 */ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ccc; 
 
 }
 
 .modal form {
   display: flex;
   flex-direction: column;
-  height: 100%; /* 폼의 높이를 모달 높이에 맞춤 */
-  justify-content: space-around; /* 내부 요소 간격 조정 */
+  height: 100%; 
+  justify-content: space-around; 
   align-items: center;
   font-family: 'Lobster', cursive; 
   font-size: medium;
 }
 
 input {
-  border: none; /* 모든 테두리 제거 */
-  border-bottom: 2px solid #4ECCA3; /* 아래쪽 테두리만 추가 */
-  padding: 10px; /* 패딩 추가 */
-  font-size: 1rem; /* 글꼴 크기 조정 */
-  outline: none; /* 포커스 아웃라인 제거 */
+  border: none; 
+  border-bottom: 2px solid #4ECCA3;
+  padding: 10px; 
+  font-size: 1rem; 
+  outline: none;
 }
 
 input:focus {
-  border-bottom: 3px solid #393E46; /* 포커스 시 아래쪽 테두리 강조 */
+  border-bottom: 3px solid #393E46; 
 }
 
 .player-label {
@@ -95,24 +95,24 @@ img {
 }
 
 button{
-  width: 150px;  /* 너비 조정 */
+  width: 150px; 
   height: 50px;
   border-radius: 15px;
-  background-color: #4ECCA3; /* 버튼 배경색 */
-  color: #232931; /* 버튼 글자색 */
-  font-family: 'Lobster', cursive; /* 폰트 스타일 */
-  font-size: 1.25rem; /* 글자 크기 */
+  background-color: #4ECCA3; 
+  color: #232931; 
+  font-family: 'Lobster', cursive; 
+  font-size: 1.25rem; 
   
-  border: none; /* 테두리 제거 */
-  cursor: pointer; /* 클릭 가능한 요소임을 나타내는 커서 스타일 */
-  transition: all 0.3s ease; /* 부드러운 전환 효과 */
-  box-shadow: 5px 5px #232931; /* 박스 그림자 */
+  border: none; 
+  cursor: pointer; 
+  transition: all 0.3s ease; 
+  box-shadow: 5px 5px #232931; 
 }
 
 button:hover {
-  background-color: rgba(78, 204, 163, 0.5); /* 호버 시 배경색 변경 */
-  color: #232931; /* 호버 시 텍스트 색상 변경 */
-  box-shadow: 2px 2px #232931; /* 호버 시 그림자 변경 */
+  background-color: rgba(78, 204, 163, 0.5); 
+  color: #232931; 
+  box-shadow: 2px 2px #232931; 
 }
 
 @media (max-width: 768px) {
@@ -128,9 +128,8 @@ button:hover {
   }
 
   .dice {
-    justify-content: space-around;  /* 주사위 사이의 공간을 균등하게 배분 */
-      /* 작은 화면에서는 주사위가 세로로 나열되도록 설정 */
-    align-items: center;  /* 주사위를 중앙 정렬 */
+    justify-content: space-around;        
+    align-items: center;  
   }
 
   .modal, .btn-box button {
@@ -151,13 +150,13 @@ button:hover {
     margin: 0 auto;
 }
   .btn-box {
-    display: flex;  /* Flexbox 레이아웃 적용 */
-    justify-content: center;  /* 버튼을 가로축 중앙에 배치 */
-    width: 100%;  /* 컨테이너의 너비를 전체로 설정 */
+    display: flex;  
+    justify-content: center;  
+    width: 100%;  
   }
 
   .modal {
-    height: auto; /* 높이 자동 조절 */
+    height: auto;
     padding: 20px;
   }
 
