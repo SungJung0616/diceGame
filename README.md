@@ -1,6 +1,6 @@
 # Dice Game 🎲
 
-![image](./public/image/mainpage.png)
+![image](./public/images/mainpage.png)
 
 A game project called Dice Game made using JavaScript, React, and CSS. Two players roll dice and compete to see who gets the higher number. The player with the higher number wins, and the game can be replayed as many times as desired.
 
